@@ -1,4 +1,6 @@
-# Simple project to prototype integration for C# Playwright tests
+# Wopee.io prototype for C# Playwright tests
+
+Example project to show how to integrate Wopee.io with C# Playwright tests for visual testing.
 
 ## Setup and Installation
 
@@ -6,7 +8,6 @@
 2. Open the project in Visual Studio or Visual Studio Code.
 3. Rename `.env.example` to `.env` and fill in the required values.
 4. Run the tests: `dotnet test` or `dotnet test --logger "console;verbosity=detailed"` for more detailed output.
-
 
 ## Folder structure
 
