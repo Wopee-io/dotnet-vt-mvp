@@ -167,17 +167,18 @@ namespace PlaywrightTests.Fixtures
                     createIntegrationStep(input: $input) {
                         id
                         stepName
+                        status
+                        url
                     }
                 }
             ";
 
-            var trackName = scenarioUuid + "-" + stepName;
             var variables = new
             {
                 input = new
                 {
                     stepName,
-                    trackName,
+                    trackName = stepName,
                     projectUuid = _projectUuid,
                     scenarioUuid,
                     imageBase64
